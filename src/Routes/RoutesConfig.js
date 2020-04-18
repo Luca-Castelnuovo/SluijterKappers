@@ -1,8 +1,8 @@
-import Home from 'Routes/Home';
-import Redirect from 'Routes/Redirect';
-import NotFound from 'Routes/NotFound';
+import Home from './Home';
+import Redirect from './Redirect';
+import NotFound from './NotFound';
 
-const Routes = [
+const RoutesConfig = [
     {
         path: '/',
         exact: true,
@@ -17,4 +17,4 @@ const Routes = [
     },
 ];
 
-export default Routes;
+export default RoutesConfig;

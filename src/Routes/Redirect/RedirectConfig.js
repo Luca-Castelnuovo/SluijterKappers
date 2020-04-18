@@ -1,4 +1,4 @@
-const Redirects = [
+const RedirectConfig = [
     {
         from: 'booking',
         to:
@@ -6,4 +6,4 @@ const Redirects = [
     },
 ];
 
-export default Redirects;
+export default RedirectConfig;

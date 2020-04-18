@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { renderRoutes } from 'react-router-config';
-import Routes from 'Config/Routes';
+import RoutesConfig from 'Routes/RoutesConfig';
+import Analytics from 'Utils/Analytics';
 import ScrollToTop from 'Utils/ScrollToTop';
 import './App.scss';
 
@@ -13,8 +14,9 @@ const App = () => {
 
     return (
         <Router>
+            <Analytics />
             <ScrollToTop />
-            <div className="App">{renderRoutes(Routes)}</div>
+            <div className="App">{renderRoutes(RoutesConfig)}</div>
         </Router>
     );
 };

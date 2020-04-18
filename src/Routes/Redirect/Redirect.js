@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useParams, useHistory } from 'react-router';
 import useFilter from 'Utils/useFilter';
-import RedirectConfig from 'Config/Redirects';
+import RedirectConfig from './RedirectConfig';
 import Loader from 'Components/Loader';
 
 const Redirect = () => {
