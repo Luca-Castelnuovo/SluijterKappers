@@ -4,8 +4,10 @@
   <a href="https://choosealicense.com/no-permission/" target="_blank">
     <img alt="License: UNLICENSED" src="https://img.shields.io/badge/License-UNLICENSED-yellow.svg" />
   </a>
+  <a href="https://app.netlify.com/sites/sluijterkappers/deploys" target="_blank">
+    <img alt="netlify" src="https://api.netlify.com/api/v1/badges/a419518c-2739-4cac-a844-193c507678d6/deploy-status" />
+  </a>
 </p>
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a419518c-2739-4cac-a844-193c507678d6/deploy-status)](https://app.netlify.com/sites/sluijterkappers/deploys)
 
 > Het Hak Hout is een natuurgebied met historische waarde.
 
