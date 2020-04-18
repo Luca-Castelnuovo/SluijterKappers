@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { renderRoutes } from 'react-router-config';
 import PropTypes from 'prop-types';
 
-const withBaseRoute = PassedComponent => {
+const withBaseRoute = (PassedComponent) => {
     return class extends Component {
         render() {
             return (
@@ -16,7 +16,7 @@ const withBaseRoute = PassedComponent => {
 };
 
 withBaseRoute.propTypes = {
-    PassedComponent: PropTypes.node.isRequired
+    PassedComponent: PropTypes.node.isRequired,
 };
 
 export default withBaseRoute;

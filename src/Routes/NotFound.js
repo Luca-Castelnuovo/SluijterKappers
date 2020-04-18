@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const NotFound = () => {
     return (
-        <div class="hero is-fullheight is-primary">
+        <div className="hero is-fullheight is-primary">
             <div className="hero-body">
                 <div className="container has-text-centered">
                     <h1 className="title is-1 has-text-white">404</h1>

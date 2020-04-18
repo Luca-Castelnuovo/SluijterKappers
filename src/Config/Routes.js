@@ -1,5 +1,5 @@
 import Home from 'Routes/Home';
-// import Redirect from 'Routes/Redirect';
+import Redirect from 'Routes/Redirect';
 import NotFound from 'Routes/NotFound';
 
 const Routes = [
@@ -8,10 +8,10 @@ const Routes = [
         exact: true,
         component: Home,
     },
-    // {
-    //     path: '/redirect/:src',
-    //     component: Redirect,
-    // },
+    {
+        path: '/redirect/:src',
+        component: Redirect,
+    },
     {
         component: NotFound,
     },
