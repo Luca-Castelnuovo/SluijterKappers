@@ -1,20 +1,20 @@
 import Home from 'Routes/Home';
-import Redirect from 'Routes/Redirect';
+// import Redirect from 'Routes/Redirect';
 import NotFound from 'Routes/NotFound';
 
 const Routes = [
     {
         path: '/',
         exact: true,
-        component: Home
+        component: Home,
     },
+    // {
+    //     path: '/redirect/:src',
+    //     component: Redirect,
+    // },
     {
-        path: '/redirect/:src',
-        component: Redirect
+        component: NotFound,
     },
-    {
-        component: NotFound
-    }
 ];
 
 export default Routes;
