@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import HeroVideo from 'Components/Hero/HeroVideo';
 
 const NotFound = () => {
     return (
-        <HeroVideo>
+        <div class="hero is-fullheight">
             <div className="hero-body">
                 <div className="container has-text-centered">
                     <h1 className="title is-1 has-text-white">404</h1>
@@ -19,7 +18,7 @@ const NotFound = () => {
                     </Link>
                 </div>
             </div>
-        </HeroVideo>
+        </div>
     );
 };
 
