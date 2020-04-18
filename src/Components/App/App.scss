@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+// Set brand style
+$family-sans-serif: 'Didact Gothic', sans-serif;
+$primary-color: #358600;
+$secundary-color: #008ada;
+$background-color: #fff;
+
+// Update Bulma's globals
+$primary: $primary-color;
+$link: $secundary-color;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update Bulma's components
+$body-background-color: $background-color;
+$control-border-width: 2px;
+$control-radius: 100px;
+$input-shadow: none;
+$navbar-item-active-background-color: #fafafa;
+$dimensions: 16 24 32 48 64 96 128 192 256 512;
+
+// Import required Bulma files
+@import '~bulma/bulma.sass';
+
+// Animated mobile nav
+@include until($desktop) {
+    .navbar-menu {
+        display: block;
+        opacity: 0;
+
+        position: absolute;
+        left: 0;
+        right: 0;
+
+        transform: translateY(-50%);
+        transition: all 0.4s ease-in-out;
+        pointer-events: none;
+    }
+
+    .navbar-menu.is-active {
+        opacity: 1;
+        transform: none;
+        pointer-events: auto;
+    }
+}
