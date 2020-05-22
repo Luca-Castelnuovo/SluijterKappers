@@ -6,6 +6,9 @@ import Analytics from 'Utils/Analytics';
 import ScrollToTop from 'Utils/ScrollToTop';
 import './App.scss';
 
+import NavBar from 'Components/NavBar';
+import Footer from 'Components/Footer';
+
 const App = () => {
     useEffect(() => {
         const preloader = document.querySelector('.preloader');
@@ -16,7 +19,9 @@ const App = () => {
         <Router>
             <Analytics />
             <ScrollToTop />
+            <NavBar />
             <div className="App">{renderRoutes(RoutesConfig)}</div>
+            <Footer />
         </Router>
     );
 };

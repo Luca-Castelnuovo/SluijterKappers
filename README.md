@@ -9,7 +9,7 @@
   </a>
 </p>
 
-> Het Hak Hout is een natuurgebied met historische waarde.
+> Je hebt kappers en kappers. SluijterKappers is al vele jaren een zeer eigentijdse kapper / kapsalon in Soest. Voor dames, heren, kinderen van alle leeftijden. Afspraken online en telefonisch.
 
 ### 🏠 [Homepage](https://sluijterkappers.nl)
 

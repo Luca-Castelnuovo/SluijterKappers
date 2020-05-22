@@ -1,23 +1,46 @@
 import React from 'react';
 import withBaseRoute from 'Utils/withBaseRoute';
-import { Link } from 'react-router-dom';
+
+// import Chocolat from 'chocolat';
+// import '~chocolat/dist/css/chocolat.css';
 
 const Home = () => {
+    // Chocolat(document.querySelectorAll('.chocolat-image'), {
+    //     // options here
+    // });
+
     return (
-        <div className="hero is-fullheight is-primary">
-            <div className="hero-body">
-                <div className="container has-text-centered">
-                    <h1 className="title is-1 has-text-white">200</h1>
-                    <h2 className="subtitle is-2 has-text-white">Home</h2>
-                    <Link
-                        className="button is-large is-outlined is-secundary is-light"
-                        to="/redirect/booking"
-                    >
-                        Ga naar booking
-                    </Link>
+        <>
+            <section className="hero is-fullheight-with-navbar is-primary">
+                <div className="hero-body">
+                    <div className="container has-text-centered">
+                        <h1 className="title is-1 has-text-white">
+                            Sluitjer Kappers
+                        </h1>
+                    </div>
                 </div>
-            </div>
-        </div>
+            </section>
+            <section className="section">
+                <div className="container">
+                    <div>
+                        <a
+                            class="chocolat-image"
+                            href="img/a.jpg"
+                            title="image caption a"
+                        >
+                            A <img src="thumb/a.jpg" alt="" />
+                        </a>
+                        <a
+                            class="chocolat-image"
+                            href="img/b.jpg"
+                            title="image caption b"
+                        >
+                            B <img src="thumb/b.jpg" alt="" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </>
     );
 };
 
