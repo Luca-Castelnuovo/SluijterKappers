@@ -34,7 +34,7 @@ const Footer = () => {
                     <FooterHours />
                     <div className="level-item has-text-centered">
                         <Link
-                            to="/redirect/booking"
+                            to="/booking"
                             className="button is-large is-primary is-outlined"
                         >
                             Maak een afspraak

@@ -39,7 +39,7 @@ const Menu = ({ hamburgerOpen }) => {
                     </span>
                 </MenuLink>
 
-                <MenuBtn to="/redirect/booking">
+                <MenuBtn to="/booking">
                     <span className="icon">
                         <FontAwesomeIcon icon={faCalendarAlt} />
                     </span>
