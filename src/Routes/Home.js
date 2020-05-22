@@ -15,7 +15,7 @@ const Home = () => {
                 <div className="hero-body">
                     <div className="container has-text-centered">
                         <h1 className="title is-1 has-text-white">
-                            Sluitjer Kappers
+                            Sluijter Kappers
                         </h1>
                     </div>
                 </div>
@@ -24,14 +24,14 @@ const Home = () => {
                 <div className="container">
                     <div>
                         <a
-                            class="chocolat-image"
+                            className="chocolat-image"
                             href="img/a.jpg"
                             title="image caption a"
                         >
                             A <img src="thumb/a.jpg" alt="" />
                         </a>
                         <a
-                            class="chocolat-image"
+                            className="chocolat-image"
                             href="img/b.jpg"
                             title="image caption b"
                         >
