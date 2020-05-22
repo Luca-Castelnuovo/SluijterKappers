@@ -2,14 +2,7 @@ import React from 'react';
 import withBaseRoute from 'Utils/withBaseRoute';
 import Hero from 'Components/Hero/Hero';
 
-// import Chocolat from 'chocolat';
-// import '~chocolat/dist/css/chocolat.css';
-
 const Home = () => {
-    // Chocolat(document.querySelectorAll('.chocolat-image'), {
-    //     // options here
-    // });
-
     return (
         <>
             <Hero />
