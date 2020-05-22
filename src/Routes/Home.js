@@ -1,5 +1,6 @@
 import React from 'react';
 import withBaseRoute from 'Utils/withBaseRoute';
+import Hero from 'Components/Hero/Hero';
 
 // import Chocolat from 'chocolat';
 // import '~chocolat/dist/css/chocolat.css';
@@ -11,15 +12,7 @@ const Home = () => {
 
     return (
         <>
-            <section className="hero is-fullheight-with-navbar is-primary">
-                <div className="hero-body">
-                    <div className="container has-text-centered">
-                        <h1 className="title is-1 has-text-white">
-                            Sluitjer Kappers
-                        </h1>
-                    </div>
-                </div>
-            </section>
+            <Hero />
             <section className="section">
                 <div className="container">
                     <div>
