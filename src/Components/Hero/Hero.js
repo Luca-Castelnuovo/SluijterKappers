@@ -1,7 +1,5 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
-import './Hero.css';
-
 import Hero1 from 'Assets/images/hero1.jpg';
 import Hero2 from 'Assets/images/hero2.jpg';
 import Hero3 from 'Assets/images/hero3.jpg';
