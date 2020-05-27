@@ -4,17 +4,12 @@ const Booking = () => {
     return (
         <section className="section">
             <div className="container">
-                <figure class="image is-1by1" overflow="hidden">
-                    <iframe
-                        title="Booking form"
-                        class="has-ratio"
-                        width="640"
-                        height="360"
-                        src="https://www.barberbooking.com/bookingwidget/jan-sluyter-kappers-soest?p=3ppr6w"
-                        frameborder="0"
-                        allowfullscreen
-                    ></iframe>
-                </figure>
+                <iframe
+                    title="Booking form"
+                    src="https://www.barberbooking.com/bookingwidget/jan-sluyter-kappers-soest?p=3ppr6w"
+                    frameBorder="0"
+                    style={{ float: 'left', height: '100%', width: '100%' }}
+                ></iframe>
             </div>
         </section>
     );
