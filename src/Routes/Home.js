@@ -8,10 +8,10 @@ const Home = () => {
     return (
         <>
             <Hero />
-            <section class="section">
-                <div class="container">
-                    <h1 class="title">Sluijter Kappers</h1>
-                    <h2 class="subtitle">
+            <section className="section">
+                <div className="container">
+                    <h1 className="title">Sluijter Kappers</h1>
+                    <h2 className="subtitle">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Esse harum perspiciatis necessitatibus rerum soluta,
                         voluptatem enim! Aperiam officia excepturi, nemo nam
@@ -36,13 +36,13 @@ const Home = () => {
                 <div className="columns">
                     <div className="column is-2"></div>
                     <div className="column is-3">
-                        <figure class="image is-2by3">
+                        <figure className="image is-2by3">
                             <img src={chimeid} alt="TODO" />
                         </figure>
                     </div>
                     <div className="column is-2"></div>
                     <div className="column is-3">
-                        <figure class="image is-2by3">
+                        <figure className="image is-2by3">
                             <img src={niffo} alt="TODO" />
                         </figure>
                     </div>
