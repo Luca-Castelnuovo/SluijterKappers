@@ -3,10 +3,10 @@ import styled from 'styled-components';
 import 'bulma-carousel/dist/css/bulma-carousel.min.css';
 import bulmaCarousel from 'bulma-carousel/dist/js/bulma-carousel.min.js';
 
-import Hero1 from 'Assets/images/hero1.jpg';
-import Hero2 from 'Assets/images/hero2.jpg';
-import Hero3 from 'Assets/images/hero3.jpg';
-import Hero4 from 'Assets/images/hero4.jpg';
+import Hero1 from 'Assets/images/hero1.webp';
+import Hero2 from 'Assets/images/hero2.webp';
+import Hero3 from 'Assets/images/hero3.webp';
+import Hero4 from 'Assets/images/hero4.webp';
 
 const Slide = styled.div`
     height: 100%;

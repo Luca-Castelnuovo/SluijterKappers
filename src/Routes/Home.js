@@ -1,7 +1,8 @@
 import React from 'react';
 import withBaseRoute from 'Utils/withBaseRoute';
 import Hero from 'Components/Hero/Hero';
-import chimeid from 'Assets/images/1.webp';
+import chimeid from 'Assets/images/chimeid.webp';
+import niffo from 'Assets/images/niffo.webp';
 
 const Home = () => {
     return (
@@ -32,38 +33,20 @@ const Home = () => {
                 </div>
             </section>
             <section className="section">
-                <div className="">
-                    <div className="columns">
-                        <div className="column">
-                            <div class="card">
-                                <div class="card-image">
-                                    <figure class="image is-1by1">
-                                        <img
-                                            src="https://salon-marketing.nl/images/loreal/product/thumbnail/2620/large_file.png"
-                                            alt="Placeholder"
-                                        />
-                                    </figure>
-                                </div>
-                                <div class="card-content">
-                                    <p class="title is-4">John Smith</p>
-                                    <p class="subtitle is-6">@johnsmith</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="column">
-                            <div class="card">
-                                <div class="card-image">
-                                    <figure class="image is-1by1">
-                                        <img src={chimeid} alt="Placeholder" />
-                                    </figure>
-                                </div>
-                                <div class="card-content">
-                                    <p class="title is-4">John Smith</p>
-                                    <p class="subtitle is-6">@johnsmith</p>
-                                </div>
-                            </div>
-                        </div>
+                <div className="columns">
+                    <div className="column is-2"></div>
+                    <div className="column is-3">
+                        <figure class="image is-2by3">
+                            <img src={chimeid} alt="TODO" />
+                        </figure>
                     </div>
+                    <div className="column is-2"></div>
+                    <div className="column is-3">
+                        <figure class="image is-2by3">
+                            <img src={niffo} alt="TODO" />
+                        </figure>
+                    </div>
+                    <div className="column is-2"></div>
                 </div>
             </section>
         </>
