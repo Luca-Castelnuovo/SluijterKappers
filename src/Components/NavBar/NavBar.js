@@ -22,7 +22,7 @@ const NavBar = () => {
     }, [location.pathname]);
 
     return (
-        <nav ref={clickRef} className="navbar is-fixed-top">
+        <nav ref={clickRef} className="navbar is-fixed-top is-spaced">
             <div className="container">
                 <Brand
                     hamburgerOpen={hamburgerOpen}
