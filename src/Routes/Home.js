@@ -3,6 +3,7 @@ import withBaseRoute from 'Utils/withBaseRoute';
 import Hero from 'Components/Hero/Hero';
 import chimeid from 'Assets/images/chimeid.webp';
 import niffo from 'Assets/images/niffo.webp';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 const Home = () => {
     return (
@@ -33,20 +34,22 @@ const Home = () => {
                 </div>
             </section>
             <section className="section">
-                <div className="columns">
-                    <div className="column is-2"></div>
-                    <div className="column is-3">
-                        <figure class="image is-2by3">
-                            <img src={chimeid} alt="TODO" />
-                        </figure>
+                <div className="columns is-centered">
+                    <div className="column is-3 box">
+                        <Link to="/vrouwen">
+                            <figure class="image is-2by3">
+                                <img src={chimeid} alt="TODO" />
+                            </figure>
+                        </Link>
                     </div>
-                    <div className="column is-2"></div>
-                    <div className="column is-3">
-                        <figure class="image is-2by3">
-                            <img src={niffo} alt="TODO" />
-                        </figure>
+                    <div className="column is-1"></div>
+                    <div className="column is-3 box">
+                        <Link to="/mannen">
+                            <figure class="image is-2by3">
+                                <img src={niffo} alt="TODO" />
+                            </figure>
+                        </Link>
                     </div>
-                    <div className="column is-2"></div>
                 </div>
             </section>
         </>
