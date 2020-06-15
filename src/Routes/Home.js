@@ -9,10 +9,10 @@ const Home = () => {
     return (
         <>
             <Hero />
-            <section class="section">
-                <div class="container">
-                    <h1 class="title">Sluijter Kappers</h1>
-                    <h2 class="subtitle">
+            <section className="section">
+                <div className="container">
+                    <h1 className="title">Sluijter Kappers</h1>
+                    <h2 className="subtitle">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Esse harum perspiciatis necessitatibus rerum soluta,
                         voluptatem enim! Aperiam officia excepturi, nemo nam

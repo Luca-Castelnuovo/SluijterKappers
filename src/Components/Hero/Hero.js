@@ -36,7 +36,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <section className="hero is-fullheight-with-navbar has-carousel is-primary">
+        <section className="hero is-fullheight-with-navbar has-carousel">
             <div className="hero-carousel">
                 <Slide className="has-background is-active">
                     <img className="is-background" src={Hero1} alt="" />
