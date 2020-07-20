@@ -35,6 +35,11 @@ const Hero = () => {
         slideReset();
     }, []);
 
+    const HeroTitle = styled.h1`
+        font-family: 'Prata', 'Didact Gothic', sans-serif;
+        font-size: 8rem;
+    `;
+
     return (
         <section className="hero is-fullheight-with-navbar has-carousel">
             <div className="hero-carousel">
@@ -52,7 +57,9 @@ const Hero = () => {
                 </Slide>
             </div>
             <div className="hero-body has-text-centered">
-                <h1 className="title is-1 has-text-white">Sluijter Kappers</h1>
+                <HeroTitle className="title has-text-white">
+                    Sluijter Kappers
+                </HeroTitle>
             </div>
         </section>
     );

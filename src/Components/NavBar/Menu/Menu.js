@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 
 import MenuLink from './MenuLink';
@@ -23,15 +22,6 @@ const Menu = ({ hamburgerOpen }) => {
             </div>
 
             <div className="navbar-end">
-                <MenuLink
-                    to="/redirect/instagram"
-                    className="navbar-item is-hidden-touch"
-                >
-                    <span className="icon" style={{ color: '#333' }}>
-                        <FontAwesomeIcon icon={faInstagram} />
-                    </span>
-                </MenuLink>
-
                 <MenuBtn to="/booking">
                     <span className="icon">
                         <FontAwesomeIcon icon={faCalendarAlt} />

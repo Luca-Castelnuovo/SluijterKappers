@@ -11,45 +11,65 @@ const Home = () => {
             <Hero />
             <section className="section">
                 <div className="container">
-                    <h1 className="title">Sluijter Kappers</h1>
-                    <h2 className="subtitle">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Esse harum perspiciatis necessitatibus rerum soluta,
-                        voluptatem enim! Aperiam officia excepturi, nemo nam
-                        quos nihil commodi debitis harum non omnis? Dignissimos,
-                        aspernatur!
-                    </h2>
+                    {/* <h1 className="title">Sluijter Kappers</h1> */}
+                    <p className="is-size-3 has-text-weight-medium">
+                        SluijterKappers is een moderne en gezellige salon in
+                        Soest. Jij ontspant hier, terwijl een ervaren team van
+                        kappers je voorziet van een geweldige coupe.
+                    </p>
+                    <br />
+                    <p className="is-size-4">
+                        Hun doel is een kapsel dat perfect bij je past en
+                        helemaal volgens jouw wensen is. Kort of lang, een mooie
+                        zomerse blondtint, een zachte bruine kleur of een
+                        knalkleur. Deze kappers halen het mooiste in jou naar
+                        boven.
+                    </p>
+                    <br />
+                    <p className="is-size-4">
+                        Bovendien wordt het kapsel zo gecreëerd dat je het,
+                        eenmaal thuis, gemakkelijk zelf kunt stylen. Zo blijf je
+                        er tiptop uitzien. Weken lang.
+                    </p>
                 </div>
             </section>
             <section className="section">
                 <div className="container">
-                    <h1 className="title">Jan Sluijter</h1>
-                    <h2 className="subtitle">
+                    <h1 className="is-size-3 has-text-weight-medium">
+                        Jan Sluijter
+                    </h1>
+                    <br />
+                    <p className="is-size-4 ">
                         Lorem ipsum dolor sit amet consectetur, adipisicing
                         elit. Incidunt laborum natus necessitatibus consequatur
                         minima in, rem perferendis exercitationem omnis error
                         asperiores molestias nulla dolorum atque saepe
                         distinctio! Quis, architecto saepe.
-                    </h2>
+                    </p>
                 </div>
             </section>
             <section className="section">
-                <div className="columns is-centered">
-                    <div className="column is-3 box">
+                <h1 className="title is-size-1 has-text-weight-medium has-text-centered">
+                    Voor wie zoekt u een haarstijl?
+                </h1>
+                <div className="columns is-centered mt-1">
+                    <div className="column"></div>
+                    <div className="column is-2 box">
                         <Link to="/vrouwen">
-                            <figure class="image is-2by3">
+                            <figure className="image is-2by3">
                                 <img src={chimeid} alt="TODO" />
                             </figure>
                         </Link>
                     </div>
                     <div className="column is-1"></div>
-                    <div className="column is-3 box">
+                    <div className="column is-2 box">
                         <Link to="/mannen">
                             <figure class="image is-2by3">
                                 <img src={niffo} alt="TODO" />
                             </figure>
                         </Link>
                     </div>
+                    <div className="column"></div>
                 </div>
             </section>
         </>

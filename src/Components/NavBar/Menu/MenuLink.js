@@ -16,7 +16,7 @@ const MenuLink = ({ to, children, className, hasActiveState }) => {
 };
 
 MenuLink.defaultProps = {
-    className: 'navbar-item',
+    className: 'navbar-item is-size-4',
     hasActiveState: true,
 };
 

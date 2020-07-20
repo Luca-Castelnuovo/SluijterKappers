@@ -26,7 +26,7 @@ const FooterHours = () => {
                         18.00
                     </li>
                     <li>
-                        <FooterHoursDay>Vrijdag</FooterHoursDay> - 9.00 - 21.00
+                        <FooterHoursDay>Vrijdag</FooterHoursDay> - 9.00 - 18.00
                     </li>
                     <li>
                         <FooterHoursDay>Zaterdag</FooterHoursDay> - 9.00 - 16.00
