@@ -33,21 +33,7 @@ const Home = () => {
                     </p>
                 </div>
             </section>
-            <section className="section">
-                <div className="container">
-                    <h1 className="is-size-3 has-text-weight-medium">
-                        Jan Sluijter
-                    </h1>
-                    <br />
-                    <p className="is-size-4 ">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Incidunt laborum natus necessitatibus consequatur
-                        minima in, rem perferendis exercitationem omnis error
-                        asperiores molestias nulla dolorum atque saepe
-                        distinctio! Quis, architecto saepe.
-                    </p>
-                </div>
-            </section>
+
             <section className="section">
                 <h1 className="title is-size-1 has-text-weight-medium has-text-centered">
                     Voor wie zoekt u een haarstijl?

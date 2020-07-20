@@ -9,7 +9,7 @@ const MenuBtn = ({ to, children }) => {
                 <p className="control">
                     <MenuLink
                         to={to}
-                        className={'button is-primary is-outlined'}
+                        className={'button is-primary is-outlined is-medium'}
                     >
                         {children}
                     </MenuLink>
