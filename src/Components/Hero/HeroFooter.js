@@ -27,10 +27,10 @@ const HeroFooter = () => {
 
     return (
         <ScrollLink
-            to="aboutMe"
+            to="intro"
             smooth={true}
             duration={500}
-            offset={-75}
+            offset={-900}
             className="hero-foot"
         >
             <div className="container has-text-centered">
