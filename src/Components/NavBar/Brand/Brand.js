@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 import BrandHamburger from './BrandHamburger';
-import Logo from 'Assets/images/logo.png';
+import Logo from 'Assets/images/logo.jpg';
 
 const Brand = ({ hamburgerOpen, toggleHamburger }) => {
     return (
