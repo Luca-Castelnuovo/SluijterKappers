@@ -21,7 +21,7 @@ const Footer = () => {
 
             <FooterBrands />
 
-            <hr className="is-hidden-desktop" />
+            <hr />
 
             <div className="content">
                 <nav className="columns is-centered">
