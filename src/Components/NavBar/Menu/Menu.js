@@ -21,7 +21,7 @@ const Menu = ({ hamburgerOpen }) => {
                 <MenuLink to="/team">Team</MenuLink>
             </div>
 
-            <div className="navbar-end">
+            <div className="navbar-end is-hidden-touch">
                 <MenuBtn to="/redirect/booking">
                     <span className="icon">
                         <FontAwesomeIcon icon={faCalendarAlt} />
