@@ -24,7 +24,7 @@ const Footer = () => {
             <hr className="is-hidden-desktop" />
 
             <div className="content">
-                <nav className="level">
+                <nav className="columns is-centered">
                     <FooterLocation />
                     <hr />
                     <FooterHours />

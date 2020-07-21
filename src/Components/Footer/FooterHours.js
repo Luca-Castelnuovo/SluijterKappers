@@ -7,7 +7,7 @@ const FooterHoursDay = styled.span`
 
 const FooterHours = () => {
     return (
-        <div className="level-item">
+        <div className="column is-narrow">
             <div className="is-size-5">
                 <p className="title">Openingstijden</p>
 

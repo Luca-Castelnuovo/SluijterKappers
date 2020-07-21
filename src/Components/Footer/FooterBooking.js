@@ -1,17 +1,31 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 
 const Footerbooking = () => {
     return (
-        <div className="level-item has-text-centered">
-            <Link to="/redirect/booking" className="button is-large is-primary">
-                <span className="icon">
-                    <FontAwesomeIcon icon={faCalendarAlt} />
-                </span>
-                <span>Maak een afspraak</span>
-            </Link>
+        <div className="column is-narrow has-text-centered">
+            <div className="is-size-5">
+                <p className="title">Maak een afspraak</p>
+
+                <div className="level">
+                    <div className="level-left">
+                        <Link
+                            to="/redirect/booking"
+                            className="button is-primary is-medium"
+                        >
+                            Online
+                        </Link>
+                    </div>
+                    <div className="level-right">
+                        <a
+                            href="tel:0356018613"
+                            className="button is-primary is-medium is-outlined"
+                        >
+                            035 601 8613
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
