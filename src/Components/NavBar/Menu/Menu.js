@@ -22,7 +22,7 @@ const Menu = ({ hamburgerOpen }) => {
             </div>
 
             <div className="navbar-end">
-                <MenuBtn to="/booking">
+                <MenuBtn to="/redirect/booking">
                     <span className="icon">
                         <FontAwesomeIcon icon={faCalendarAlt} />
                     </span>

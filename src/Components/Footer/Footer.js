@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { createGlobalStyle } from 'styled-components';
 
 import FooterBrands from './FooterBrands';
 import FooterLocation from './FooterLocation';
 import FooterHours from './FooterHours';
+import FooterBooking from './FooterBooking';
 
 const FooterStyle = createGlobalStyle`
     #root {
@@ -25,14 +25,7 @@ const Footer = () => {
                 <nav className="level">
                     <FooterLocation />
                     <FooterHours />
-                    <div className="level-item has-text-centered">
-                        <Link
-                            to="/booking"
-                            className="button is-large is-primary is-outlined"
-                        >
-                            Maak een afspraak
-                        </Link>
-                    </div>
+                    <FooterBooking />
                 </nav>
             </div>
         </footer>
