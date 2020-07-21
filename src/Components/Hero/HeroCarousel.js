@@ -3,10 +3,10 @@ import styled from 'styled-components';
 import 'bulma-carousel/dist/css/bulma-carousel.min.css';
 import bulmaCarousel from 'bulma-carousel/dist/js/bulma-carousel.min.js';
 
-import Hero1 from 'Assets/images/hero/hero1.jpg';
-import Hero2 from 'Assets/images/hero/hero2.jpg';
-import Hero3 from 'Assets/images/hero/hero3.jpg';
-import Hero4 from 'Assets/images/hero/hero4.jpg';
+import Hero1 from 'Assets/images/hero/hero5.jpg';
+import Hero2 from 'Assets/images/hero/hero6.jpg';
+import Hero3 from 'Assets/images/hero/hero7.jpg';
+import Hero4 from 'Assets/images/hero/hero8.jpg';
 
 const HeroCarousel = () => {
     useEffect(() => {
