@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { createGlobalStyle } from 'styled-components';
+
+import FooterBrands from './FooterBrands';
+import FooterLocation from './FooterLocation';
 import FooterHours from './FooterHours';
 
-const FooterBottomStyle = createGlobalStyle`
+const FooterStyle = createGlobalStyle`
     #root {
         display: flex;
         min-height: 100vh;
@@ -14,23 +17,13 @@ const FooterBottomStyle = createGlobalStyle`
 const Footer = () => {
     return (
         <footer className="footer">
-            <FooterBottomStyle />
+            <FooterStyle />
+
+            <FooterBrands />
+
             <div className="content">
                 <nav className="level">
-                    <div className="level-item has-text-centered">
-                        <div className="is-size-5">
-                            <p className="title">Openingstijden</p>
-                            <p>
-                                <Link to="/redirect/gmaps">
-                                    Zuidpromenade 1a, <br />
-                                    3768 EM SOEST
-                                </Link>
-                            </p>
-                            <p>
-                                <Link to="/redirect/phone"> 035 601 8613</Link>
-                            </p>
-                        </div>
-                    </div>
+                    <FooterLocation />
                     <FooterHours />
                     <div className="level-item has-text-centered">
                         <Link
