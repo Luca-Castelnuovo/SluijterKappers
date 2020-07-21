@@ -24,6 +24,21 @@ $dimensions: 16 24 32 48 64 96 128 192 256 512;
 // Import required Bulma files
 @import '~bulma/bulma.sass';
 
+// Custom font
+@font-face {
+    font-family: 'BankGothicBT-Medium';
+    src: url('../../Assets/fonts/BankGothicMedium.eot');
+    src: url('../../Assets/fonts/BankGothicMedium.eot')
+            format('embedded-opentype'),
+        url('../../Assets/fonts/BankGothicMedium.otf') format('opentype'),
+        url('../../Assets/fonts/BankGothicMedium.svg') format('svg'),
+        url('../../Assets/fonts/BankGothicMedium.ttf') format('truetype'),
+        url('../../Assets/fonts/BankGothicMedium.woff') format('woff'),
+        url('../../Assets/fonts/BankGothicMedium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 // Animated mobile nav
 @include until($desktop) {
     .navbar-menu {

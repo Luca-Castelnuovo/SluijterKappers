@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const HeroBody = () => {
     const HeroTitle = styled.h1`
-        font-family: 'Prata', 'Didact Gothic', sans-serif;
+        font-family: 'BankGothicBT-Medium', 'Didact Gothic', sans-serif;
         font-size: 6rem;
     `;
 
