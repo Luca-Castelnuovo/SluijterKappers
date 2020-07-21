@@ -5,7 +5,7 @@ const Footerbooking = () => {
     return (
         <div className="column is-narrow has-text-centered">
             <div className="is-size-5">
-                <p className="title">Maak een afspraak</p>
+                <p className="title">Afspraak Maken</p>
 
                 <div className="level">
                     <div className="level-left">
