@@ -21,10 +21,14 @@ const Footer = () => {
 
             <FooterBrands />
 
+            <hr className="is-hidden-desktop" />
+
             <div className="content">
                 <nav className="level">
                     <FooterLocation />
+                    <hr />
                     <FooterHours />
+                    <hr />
                     <FooterBooking />
                 </nav>
             </div>
