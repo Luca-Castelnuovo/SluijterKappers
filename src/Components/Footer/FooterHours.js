@@ -16,17 +16,17 @@ const FooterHours = () => {
                         <FooterHoursDay>Maandag</FooterHoursDay> - gesloten
                     </li>
                     <li>
-                        <FooterHoursDay>Dinsdag</FooterHoursDay> - 9.00 - 18.00
+                        <FooterHoursDay>Dinsdag</FooterHoursDay> - 9.00 - 17.30
                     </li>
                     <li>
-                        <FooterHoursDay>Woensdag</FooterHoursDay> - 9.00 - 18.00
+                        <FooterHoursDay>Woensdag</FooterHoursDay> - 9.00 - 17.30
                     </li>
                     <li>
                         <FooterHoursDay>Donderdag</FooterHoursDay> - 9.00 -
-                        18.00
+                        17.30
                     </li>
                     <li>
-                        <FooterHoursDay>Vrijdag</FooterHoursDay> - 9.00 - 18.00
+                        <FooterHoursDay>Vrijdag</FooterHoursDay> - 9.00 - 17.30
                     </li>
                     <li>
                         <FooterHoursDay>Zaterdag</FooterHoursDay> - 9.00 - 16.00
