@@ -1,9 +1,9 @@
 import Home from './Home';
 import Redirect from './Redirect';
-import Mannen from './Mannen';
+import Heren from './Heren';
 import Producten from './Producten';
 import Team from './Team';
-import Vrouwen from './Vrouwen';
+import Dames from './Dames';
 import NotFound from './NotFound';
 
 const RoutesConfig = [
@@ -17,8 +17,12 @@ const RoutesConfig = [
         component: Redirect,
     },
     {
-        path: '/mannen',
-        component: Mannen,
+        path: '/dames',
+        component: Dames,
+    },
+    {
+        path: '/heren',
+        component: Heren,
     },
     {
         path: '/producten',
@@ -27,10 +31,6 @@ const RoutesConfig = [
     {
         path: '/team',
         component: Team,
-    },
-    {
-        path: '/vrouwen',
-        component: Vrouwen,
     },
     {
         component: NotFound,

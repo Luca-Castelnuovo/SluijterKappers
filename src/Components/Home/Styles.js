@@ -14,20 +14,20 @@ const Styles = () => {
                 <div className="columns is-centered mt-1">
                     <div className="column"></div>
                     <div className="column is-2 box">
-                        <Link to="/vrouwen">
+                        <Link to="/dames">
                             <figure className="image is-2by3">
                                 <img src={FemaleModel} alt="TODO" />
                             </figure>
-                            <p className="is-size-4 mt-1">Vrouwen</p>
+                            <p className="is-size-4 mt-1">Dames</p>
                         </Link>
                     </div>
                     <div className="column is-1"></div>
                     <div className="column is-2 box">
-                        <Link to="/mannen">
+                        <Link to="/heren">
                             <figure className="image is-2by3">
                                 <img src={MaleModel} alt="TODO" />
                             </figure>
-                            <p className="is-size-4 mt-1">Mannen</p>
+                            <p className="is-size-4 mt-1">Heren</p>
                         </Link>
                     </div>
                     <div className="column"></div>
