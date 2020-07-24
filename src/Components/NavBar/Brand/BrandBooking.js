@@ -3,18 +3,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 import MenuLink from 'Components/NavBar/Menu/MenuLink';
 
-// on mobile remove icon and increase font-size
-
 const BrandBooking = () => {
     return (
         <div className="navbar-item is-hidden-desktop">
             <MenuLink
                 to="/redirect/booking"
-                className="button is-primary is-outlined is-small"
+                className="button is-primary is-rounded is-outlined is-normal"
             >
-                <span className="icon">
+                <span className="icon is-hidden-touch">
                     <FontAwesomeIcon icon={faCalendarAlt} />
                 </span>
+
                 <span>Maak een afspraak</span>
             </MenuLink>
         </div>
