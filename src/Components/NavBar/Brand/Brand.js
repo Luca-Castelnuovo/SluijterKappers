@@ -1,17 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
-import BrandHamburger from './BrandHamburger';
+import BrandLogo from './BrandLogo';
 import BrandBooking from './BrandBooking';
-
-import Logo from 'Assets/images/logo.jpg';
+import BrandHamburger from './BrandHamburger';
 
 const Brand = ({ hamburgerOpen, toggleHamburger }) => {
     return (
         <div className="navbar-brand">
-            <Link to="/" className="navbar-item">
-                <img src={Logo} alt="Logo || Sluijter Kappers" />
-            </Link>
+            <BrandLogo />
 
             <BrandBooking />
 
