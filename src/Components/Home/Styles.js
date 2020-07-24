@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Element as ScrollTarget } from 'react-scroll';
-import FemaleModel from 'Assets/images/FemaleModel.jpg';
-import MaleModel from 'Assets/images/MaleModel.jpg';
+import FemaleModel from 'Assets/images/models/female.jpg';
+import MaleModel from 'Assets/images/models/male.jpg';
 
 const Styles = () => {
     return (
