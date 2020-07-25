@@ -6,13 +6,13 @@ import kerastase from 'Assets/images/brands/kerastase.jpg';
 import loreal from 'Assets/images/brands/loreal.jpg';
 import marcInbane from 'Assets/images/brands/marc_inbane.jpg';
 
-const FooterBrands = () => {
-    const Logo = styled.figure`
-        width: 192px;
-        margin-left: auto !important;
-        margin-right: auto !important;
-    `;
+const Logo = styled.figure`
+    width: 192px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+`;
 
+const FooterBrands = () => {
     return (
         <div className="content">
             <div className="columns is-centered">
