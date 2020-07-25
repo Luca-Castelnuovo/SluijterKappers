@@ -24,7 +24,7 @@ const Footer = () => {
             <hr />
 
             <div className="content">
-                <nav className="columns is-centered">
+                <nav className="columns is-centered has-text-centered">
                     <FooterLocation />
                     <hr />
                     <FooterHours />

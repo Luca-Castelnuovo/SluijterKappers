@@ -1,41 +1,40 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const FooterHoursDay = styled.span`
-    font-weight: bolder;
+const List = styled.ul`
+    list-style: none !important;
 `;
 
 const FooterHours = () => {
+    const day = new Date().getDay();
+
     return (
         <div className="column is-narrow">
-            <div className="is-size-5">
-                <p className="title">Openingstijden</p>
+            <p className="title">Openingstijden</p>
 
-                <ul>
-                    <li>
-                        <FooterHoursDay>Maandag</FooterHoursDay> - gesloten
-                    </li>
-                    <li>
-                        <FooterHoursDay>Dinsdag</FooterHoursDay> - 9.00 - 17.30
-                    </li>
-                    <li>
-                        <FooterHoursDay>Woensdag</FooterHoursDay> - 9.00 - 17.30
-                    </li>
-                    <li>
-                        <FooterHoursDay>Donderdag</FooterHoursDay> - 9.00 -
-                        17.30
-                    </li>
-                    <li>
-                        <FooterHoursDay>Vrijdag</FooterHoursDay> - 9.00 - 17.30
-                    </li>
-                    <li>
-                        <FooterHoursDay>Zaterdag</FooterHoursDay> - 9.00 - 16.00
-                    </li>
-                    <li>
-                        <FooterHoursDay>Zondag</FooterHoursDay> - gesloten
-                    </li>
-                </ul>
-            </div>
+            <List className="has-text-left is-size-4">
+                <li className={day === 1 ? 'has-text-weight-semibold' : ''}>
+                    Maandag - gesloten
+                </li>
+                <li className={day === 2 ? 'has-text-weight-semibold' : ''}>
+                    Dinsdag - 9.00 - 17.30
+                </li>
+                <li className={day === 3 ? 'has-text-weight-semibold' : ''}>
+                    Woensdag - 9.00 - 17.30
+                </li>
+                <li className={day === 4 ? 'has-text-weight-semibold' : ''}>
+                    Donderdag - 9.00 - 17.30
+                </li>
+                <li className={day === 5 ? 'has-text-weight-semibold' : ''}>
+                    Vrijdag - 9.00 - 17.30
+                </li>
+                <li className={day === 6 ? 'has-text-weight-semibold' : ''}>
+                    Zaterdag - 9.00 - 16.00
+                </li>
+                <li className={day === 0 ? 'has-text-weight-semibold' : ''}>
+                    Zondag - gesloten
+                </li>
+            </List>
         </div>
     );
 };
