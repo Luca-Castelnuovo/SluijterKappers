@@ -19,7 +19,9 @@ const HeroCarousel = () => {
     }, []);
 
     useEffect(() => {
-        const carousel = bulmaCarousel.attach('.hero-carousel', {
+        let carousel = [];
+
+        carousel = bulmaCarousel.attach('.hero-carousel', {
             autoplay: true,
             autoplaySpeed: 3000,
             slidesToScroll: 1,
