@@ -1,5 +1,4 @@
 import React from 'react';
-import classNames from 'classnames';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
@@ -13,20 +12,11 @@ const BrandLogo = () => {
         }
     `;
 
-    const Classes = classNames(
-        'is-uppercase',
-        'has-text-white',
-        'has-background-black',
-        'pl-1',
-        'pr-0',
-        {
-            'is-invisible': false,
-        }
-    );
-
     return (
-        <Link to="/" className="navbar-item">
-            <Title className={Classes}>Sluijter</Title>
+        <Link exact to="/" className="navbar-item">
+            <Title className="is-uppercase has-text-white has-background-black pl-1 pr-1">
+                Sluijter
+            </Title>
         </Link>
     );
 };
