@@ -14,11 +14,6 @@ const Slide = styled.div`
 
 const HeroCarousel = () => {
     useEffect(() => {
-        console.log('mounted');
-        return () => console.log('unmounting...');
-    }, []);
-
-    useEffect(() => {
         let carousel = [];
 
         carousel = bulmaCarousel.attach('.hero-carousel', {
