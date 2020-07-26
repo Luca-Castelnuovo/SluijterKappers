@@ -7,22 +7,24 @@ const ServicePrices = ({ title, prices }) => {
             <h1 className="title is-1">{title}</h1>
 
             {prices.map((category) => (
-                <table className="table">
+                <div key={category.title} className="mb-4">
                     {category.title && (
                         <h3 className="subtitle is-4 mb-0">{category.title}</h3>
                     )}
 
-                    <tbody>
-                        {Object.entries(category)
-                            .filter(([key, value]) => key !== 'title')
-                            .map(([key, value]) => (
-                                <tr>
-                                    <th>{key}</th>
-                                    <td>{value},-</td>
-                                </tr>
-                            ))}
-                    </tbody>
-                </table>
+                    <table className="table">
+                        <tbody>
+                            {Object.entries(category)
+                                .filter(([key, value]) => key !== 'title')
+                                .map(([key, value]) => (
+                                    <tr key={key}>
+                                        <th>{key}</th>
+                                        <td>{value},-</td>
+                                    </tr>
+                                ))}
+                        </tbody>
+                    </table>
+                </div>
             ))}
         </div>
     );
