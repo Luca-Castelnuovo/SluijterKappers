@@ -5,10 +5,7 @@ import MenuLink from './MenuLink';
 const MenuBtn = ({ to, children }) => {
     return (
         <div className="navbar-item">
-            <MenuLink
-                to={to}
-                className={'button is-primary is-outlined is-medium'}
-            >
+            <MenuLink to={to} className={'button is-primary is-medium'}>
                 {children}
             </MenuLink>
         </div>

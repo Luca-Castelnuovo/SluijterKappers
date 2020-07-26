@@ -8,7 +8,7 @@ const BrandBooking = () => {
         <div className="navbar-item is-hidden-desktop">
             <MenuLink
                 to="/redirect/booking"
-                className="button is-primary is-rounded is-outlined is-normal"
+                className="button is-primary is-rounded is-normal"
             >
                 <span className="icon is-hidden-touch">
                     <FontAwesomeIcon icon={faCalendarAlt} />
