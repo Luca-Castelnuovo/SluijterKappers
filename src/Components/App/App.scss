@@ -11,7 +11,7 @@
 }
 
 @font-face {
-    font-family: 'BankGothic';
+    font-family: 'Bank Gothic';
     font-weight: normal;
     font-style: 400;
     font-display: fallback;
@@ -20,7 +20,8 @@
 }
 
 // Set brand style
-$family-sans-serif: 'Didact Gothic', sans-serif;
+$primary-font: 'Didact Gothic', sans-serif;
+$secondary-font: 'Bank Gothic', sans-serif;
 $primary-color: #a59d91;
 $secundary-color: #008ada;
 $background-color: #fff;
@@ -28,17 +29,17 @@ $background-color: #fff;
 // Update Bulma's globals
 $primary: $primary-color;
 $link: $secundary-color;
-// $widescreen-enabled: false;
-// $fullhd-enabled: false;
+$dimensions: 16 24 32 48 64 96 128 192 256 512;
 
 // Update Bulma's components
 $body-line-height: 1.25;
 $body-background-color: $background-color;
 $control-border-width: 2px;
 $control-radius: 100px;
+$family-primary: $primary-font;
+$family-secondary: $secondary-font;
 $input-shadow: none;
 $navbar-item-active-background-color: #fafafa;
-$dimensions: 16 24 32 48 64 96 128 192 256 512;
 
 // Import required Bulma files
 @import '~bulma/bulma.sass';

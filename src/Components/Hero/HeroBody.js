@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 const HeroTitle = styled.h1`
-    font-family: 'BankGothic', 'Didact Gothic', sans-serif;
     font-size: 6rem;
 
     @media (max-width: 768px) {
@@ -17,7 +16,7 @@ const HeroTitle = styled.h1`
 const HeroBody = () => {
     return (
         <div className="hero-body has-text-centered">
-            <HeroTitle className="title has-text-white">
+            <HeroTitle className="title is-family-secondary has-text-white">
                 Sluijter
                 <br /> Kappers
             </HeroTitle>
