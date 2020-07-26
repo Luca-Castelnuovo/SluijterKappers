@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const HeroTitle = styled.h1`
-    font-family: 'BankGothicBT-Medium', 'Didact Gothic', sans-serif;
+    font-family: 'BankGothic', 'Didact Gothic', sans-serif;
     font-size: 6rem;
 
     @media (max-width: 768px) {

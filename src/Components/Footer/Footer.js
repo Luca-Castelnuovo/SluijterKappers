@@ -6,6 +6,7 @@ import FooterLocation from './FooterLocation';
 import FooterHours from './FooterHours';
 import FooterBooking from './FooterBooking';
 
+// TODO: validate if works
 const FooterStyle = createGlobalStyle`
     #root {
         display: flex;

@@ -3,9 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
-
 import MenuLink from './MenuLink';
-import MenuBtn from './MenuBtn';
 
 const Menu = ({ hamburgerOpen }) => {
     const classes = classNames('navbar-menu', {
@@ -22,12 +20,17 @@ const Menu = ({ hamburgerOpen }) => {
             </div>
 
             <div className="navbar-end is-hidden-touch">
-                <MenuBtn to="/redirect/booking">
-                    <span className="icon">
-                        <FontAwesomeIcon icon={faCalendarAlt} />
-                    </span>
-                    <span>Maak een afspraak</span>
-                </MenuBtn>
+                <div className="navbar-item">
+                    <MenuLink
+                        to="/redirect/booking"
+                        className="button is-primary is-medium"
+                    >
+                        <span className="icon">
+                            <FontAwesomeIcon icon={faCalendarAlt} />
+                        </span>
+                        <span>Maak een afspraak</span>
+                    </MenuLink>
+                </div>
             </div>
         </div>
     );

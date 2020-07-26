@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 const Title = styled.h2`
-    font-family: 'BankGothicBT-Medium', 'Didact Gothic', sans-serif;
+    font-family: 'BankGothic', 'Didact Gothic', sans-serif;
     font-size: 1.5rem;
 
     @media (max-width: 1024px) {
