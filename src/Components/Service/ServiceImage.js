@@ -6,7 +6,7 @@ const ServiceImage = ({ image }) => {
         <div className="column is-hidden-touch">
             <div className="column is-hidden-touch">
                 <figure className="image is-5by4">
-                    <img src={image} alt="TODO" />
+                    <img src={image} alt="De Zaak || Sluijter Kappers" />
                 </figure>
             </div>
         </div>

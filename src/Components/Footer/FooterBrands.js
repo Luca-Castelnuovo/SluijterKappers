@@ -18,22 +18,31 @@ const FooterBrands = () => {
             <div className="columns is-centered">
                 <div className="column is-narrow">
                     <Logo className="image">
-                        <img alt="TODO" src={tecniArt} />
+                        <img
+                            alt="Tecni Art || Sluijter Kappers"
+                            src={tecniArt}
+                        />
                     </Logo>
                 </div>
                 <div className="column is-narrow">
                     <Logo className="image">
-                        <img alt="TODO" src={kerastase} />
+                        <img
+                            alt="Kérastase || Sluijter Kappers"
+                            src={kerastase}
+                        />
                     </Logo>
                 </div>
                 <div className="column is-narrow">
                     <Logo className="image">
-                        <img alt="TODO" src={loreal} />
+                        <img alt="L'Oréal || Sluijter Kappers" src={loreal} />
                     </Logo>
                 </div>
                 <div className="column is-narrow">
                     <Logo className="image">
-                        <img alt="TODO" src={marcInbane} />
+                        <img
+                            alt="Marc Inbane || Sluijter Kappers"
+                            src={marcInbane}
+                        />
                     </Logo>
                 </div>
             </div>

@@ -16,7 +16,10 @@ const Styles = () => {
                     <div className="column is-2 box">
                         <Link to="/dames">
                             <figure className="image is-2by3">
-                                <img src={FemaleModel} alt="TODO" />
+                                <img
+                                    src={FemaleModel}
+                                    alt="Vrouwelijk Voorbeeld || Sluijter Kappers"
+                                />
                             </figure>
                             <p className="is-size-4 mt-1">Dames</p>
                         </Link>
@@ -25,7 +28,10 @@ const Styles = () => {
                     <div className="column is-2 box">
                         <Link to="/heren">
                             <figure className="image is-2by3">
-                                <img src={MaleModel} alt="TODO" />
+                                <img
+                                    src={MaleModel}
+                                    alt="Mannelijk Voorbeeld || Sluijter Kappers"
+                                />
                             </figure>
                             <p className="is-size-4 mt-1">Heren</p>
                         </Link>

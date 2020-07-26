@@ -41,16 +41,32 @@ const HeroCarousel = () => {
     return (
         <div className="hero-carousel">
             <Slide className="has-background is-active">
-                <img className="is-background" src={Hero1} alt="TODO" />
+                <img
+                    className="is-background"
+                    src={Hero1}
+                    alt="Hero 1 || Sluijter Kappers"
+                />
             </Slide>
             <Slide className="has-background">
-                <img className="is-background" src={Hero2} alt="TODO" />
+                <img
+                    className="is-background"
+                    src={Hero2}
+                    alt="Hero 1 || Sluijter Kappers"
+                />
             </Slide>
             <Slide className="has-background">
-                <img className="is-background" src={Hero3} alt="TODO" />
+                <img
+                    className="is-background"
+                    src={Hero3}
+                    alt="Hero 1 || Sluijter Kappers"
+                />
             </Slide>
             <Slide className="has-background">
-                <img className="is-background" src={Hero4} alt="TODO" />
+                <img
+                    className="is-background"
+                    src={Hero4}
+                    alt="Hero 1 || Sluijter Kappers"
+                />
             </Slide>
         </div>
     );
