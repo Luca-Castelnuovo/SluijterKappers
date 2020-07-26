@@ -5,7 +5,7 @@
     <img alt="License: UNLICENSED" src="https://img.shields.io/badge/License-UNLICENSED-yellow.svg" />
   </a>
   <a href="https://app.netlify.com/sites/sluijterkappers/deploys" target="_blank">
-    <img alt="netlify" src="https://api.netlify.com/api/v1/badges/a419518c-2739-4cac-a844-193c507678d6/deploy-status" />
+    <img alt="netlify" src="https://api.netlify.com/api/v1/badges/e796bc4f-ddaa-407b-8c61-7caac9f0639d/deploy-status" />
   </a>
 </p>
 
