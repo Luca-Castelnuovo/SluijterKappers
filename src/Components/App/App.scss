@@ -1,5 +1,24 @@
 @charset "utf-8";
 
+// Custom font
+@font-face {
+    font-family: 'Didact Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: url('../../Assets/fonts/DidactGothicRegular.woff2') format('woff2'),
+        url('../../Assets/fonts/DidactGothicRegular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BankGothic';
+    font-weight: normal;
+    font-style: 400;
+    font-display: fallback;
+    src: url('../../Assets/fonts/BankGothicMedium.woff2') format('woff2'),
+        url('../../Assets/fonts/BankGothicMedium.woff') format('woff');
+}
+
 // Set brand style
 $family-sans-serif: 'Didact Gothic', sans-serif;
 $primary-color: #a59d91;
@@ -23,21 +42,6 @@ $dimensions: 16 24 32 48 64 96 128 192 256 512;
 
 // Import required Bulma files
 @import '~bulma/bulma.sass';
-
-// Custom font
-@font-face {
-    font-family: 'BankGothicBT-Medium';
-    src: url('../../Assets/fonts/BankGothicMedium.eot');
-    src: url('../../Assets/fonts/BankGothicMedium.eot')
-            format('embedded-opentype'),
-        url('../../Assets/fonts/BankGothicMedium.otf') format('opentype'),
-        url('../../Assets/fonts/BankGothicMedium.svg') format('svg'),
-        url('../../Assets/fonts/BankGothicMedium.ttf') format('truetype'),
-        url('../../Assets/fonts/BankGothicMedium.woff') format('woff'),
-        url('../../Assets/fonts/BankGothicMedium.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
 
 // Animated mobile nav
 @include until($desktop) {
