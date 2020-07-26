@@ -51,21 +51,21 @@ const HeroCarousel = () => {
                 <img
                     className="is-background"
                     src={Hero2}
-                    alt="Hero 1 || Sluijter Kappers"
+                    alt="Hero 2 || Sluijter Kappers"
                 />
             </Slide>
             <Slide className="has-background">
                 <img
                     className="is-background"
                     src={Hero3}
-                    alt="Hero 1 || Sluijter Kappers"
+                    alt="Hero 3 || Sluijter Kappers"
                 />
             </Slide>
             <Slide className="has-background">
                 <img
                     className="is-background"
                     src={Hero4}
-                    alt="Hero 1 || Sluijter Kappers"
+                    alt="Hero 4 || Sluijter Kappers"
                 />
             </Slide>
         </div>
