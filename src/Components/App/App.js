@@ -18,7 +18,7 @@ const App = () => {
         <Router>
             <ScrollToTop />
             <NavBar />
-            <div className="App">{renderRoutes(Routes)}</div>
+            {renderRoutes(Routes)}
             <Footer />
         </Router>
     );
