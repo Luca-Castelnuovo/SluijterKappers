@@ -1,39 +1,45 @@
 import React from 'react';
+import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { Element as ScrollTarget } from 'react-scroll';
-import FemaleModel from 'Assets/images/models/female.jpg';
-import MaleModel from 'Assets/images/models/male.jpg';
+import FemaleModel from 'Assets/images/models/female.png';
+import MaleModel from 'Assets/images/models/male.png';
+
+const Box = styled.figure`
+    box-shadow: unset;
+    padding: 0.5rem;
+`;
 
 const Styles = () => {
     return (
         <section className="section has-text-centered mb-4">
             <ScrollTarget name="intro">
-                <h1 className="title is-size-1 has-text-weight-medium">
+                <h2 className="title is-size-1 has-text-weight-medium">
                     Voor wie zoekt u een haarstijl?
-                </h1>
+                </h2>
                 <div className="columns is-centered mt-1">
                     <div className="column"></div>
-                    <div className="column is-2 box">
+                    <div className="column is-2 ">
                         <Link to="/dames">
-                            <figure className="image is-2by3">
+                            <Box className="image 1by1 box  has-background-primary">
                                 <img
                                     src={FemaleModel}
                                     alt="Vrouwelijk Voorbeeld || Sluijter Kappers"
                                 />
-                            </figure>
-                            <p className="is-size-4 mt-1">Dames</p>
+                            </Box>
+                            {/* <p className="is-size-4 mt-1">Dames</p> */}
                         </Link>
                     </div>
                     <div className="column is-1"></div>
-                    <div className="column is-2 box">
+                    <div className="column is-2 ">
                         <Link to="/heren">
-                            <figure className="image is-2by3">
+                            <Box className="image 1by1 box">
                                 <img
                                     src={MaleModel}
                                     alt="Mannelijk Voorbeeld || Sluijter Kappers"
                                 />
-                            </figure>
-                            <p className="is-size-4 mt-1">Heren</p>
+                            </Box>
+                            {/* <p className="is-size-4 mt-1">Heren</p> */}
                         </Link>
                     </div>
                     <div className="column"></div>
