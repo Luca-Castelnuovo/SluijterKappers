@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { Element as ScrollTarget } from 'react-scroll';
-import FemaleModel from 'Assets/images/models/female.png';
-import MaleModel from 'Assets/images/models/male.png';
+import FemaleModel from 'Assets/images/models/female.jpg';
+import MaleModel from 'Assets/images/models/male.jpg';
 
 const Box = styled.figure`
     box-shadow: unset;
