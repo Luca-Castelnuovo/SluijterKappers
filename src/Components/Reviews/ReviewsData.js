@@ -8,7 +8,7 @@ const Reviews = [
     {
         name: 'Robin',
         review:
-            'Geweldig dat Jan mijn “moeilijke “ haar zo weet te knippen dat het voor mij makkelijk in model te kammen is 👍   ',
+            'Geweldig dat Jan mijn "moeilijke" haar zo weet te knippen dat het voor mij makkelijk in model te kammen is 👍   ',
         stars: 4,
     },
     {

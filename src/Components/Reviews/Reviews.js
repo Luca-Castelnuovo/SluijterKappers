@@ -1,9 +1,8 @@
 import React from 'react';
 import ReviewsData from './ReviewsData';
+import ReviewsItem from './ReviewsItem';
 
 const Reviews = () => {
-    console.log(ReviewsData);
-
     return (
         <section className="section">
             <div className="container">
@@ -12,18 +11,7 @@ const Reviews = () => {
                 </h2>
                 <div className="tile is-ancestor">
                     {ReviewsData.map((review) => (
-                        <div key={review.name} className="tile is-parent">
-                            <div className="tile box">
-                                <p className="is-size-3">{review.stars}/5</p>
-
-                                <p className="is-size-5 ml-3">
-                                    {review.review}'{' '}
-                                    <span className="has-text-dark has-text-weight-semibold">
-                                        - {review.name}
-                                    </span>
-                                </p>
-                            </div>
-                        </div>
+                        <ReviewsItem key={review.name} review={review} />
                     ))}
                 </div>
             </div>
