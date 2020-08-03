@@ -1,5 +1,5 @@
 import React from 'react';
-import ReviewsData from './ReviewsData';
+import ReviewsConfig from 'Config/Reviews';
 import ReviewsItem from './ReviewsItem';
 
 const Reviews = () => {
@@ -10,7 +10,7 @@ const Reviews = () => {
                     Vorige ervaringen
                 </h2>
                 <div className="tile is-ancestor">
-                    {ReviewsData.map((review) => (
+                    {ReviewsConfig.map((review) => (
                         <ReviewsItem key={review.name} review={review} />
                     ))}
                 </div>

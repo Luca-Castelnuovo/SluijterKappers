@@ -5,7 +5,7 @@ const Team = () => {
     return (
         <section className="section">
             <div className="container">
-                <h1 className="title">Team</h1>
+                <h1 className="title is-size-1">Team</h1>
             </div>
         </section>
     );

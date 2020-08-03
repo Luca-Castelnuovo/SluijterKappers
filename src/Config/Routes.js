@@ -1,20 +1,16 @@
-import Home from './Home';
-import Redirect from './Redirect';
-import Heren from './Heren';
-import Producten from './Producten';
-import Team from './Team';
-import Dames from './Dames';
-import NotFound from './NotFound';
+import Home from 'Routes/Home';
+import Dames from 'Routes/Dames';
+import Heren from 'Routes/Heren';
+import Producten from 'Routes/Producten';
+import Team from 'Routes/Team';
+import Redirect from 'Routes/Redirect';
+import NotFound from 'Routes/NotFound';
 
-const RoutesConfig = [
+const Routes = [
     {
         path: '/',
         exact: true,
         component: Home,
-    },
-    {
-        path: '/redirect/:src',
-        component: Redirect,
     },
     {
         path: '/dames',
@@ -33,8 +29,12 @@ const RoutesConfig = [
         component: Team,
     },
     {
+        path: '/redirect/:src',
+        component: Redirect,
+    },
+    {
         component: NotFound,
     },
 ];
 
-export default RoutesConfig;
+export default Routes;
