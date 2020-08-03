@@ -19,7 +19,7 @@ const Styles = () => {
                 </h2>
                 <div className="columns is-centered mt-1">
                     <div className="column"></div>
-                    <div className="column is-2 ">
+                    <div className="column is-3 ">
                         <Link to="/dames">
                             <Box className="image 1by1 box  has-background-primary">
                                 <img
@@ -27,19 +27,29 @@ const Styles = () => {
                                     alt="Vrouwelijk Voorbeeld || Sluijter Kappers"
                                 />
                             </Box>
-                            {/* <p className="is-size-4 mt-1">Dames</p> */}
                         </Link>
                     </div>
-                    <div className="column is-1"></div>
-                    <div className="column is-2 ">
+                    <div className="column is-5">
+                        <div className="container box">
+                            <p className="is-size-3 has-text-weight-medium">
+                                <span className="has-text-weight-semibold">
+                                    SluijterKappers is een moderne en gezellige
+                                    salon in Soest.
+                                </span>
+                                <br />
+                                Jij ontspant hier, terwijl een ervaren team van
+                                kappers je voorziet van een geweldige coupe.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="column is-3 ">
                         <Link to="/heren">
-                            <Box className="image 1by1 box">
+                            <Box className="image 1by1 box has-background-primary">
                                 <img
                                     src={MaleModel}
                                     alt="Mannelijk Voorbeeld || Sluijter Kappers"
                                 />
                             </Box>
-                            {/* <p className="is-size-4 mt-1">Heren</p> */}
                         </Link>
                     </div>
                     <div className="column"></div>

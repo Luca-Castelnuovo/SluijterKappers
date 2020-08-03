@@ -3,8 +3,8 @@ import React from 'react';
 const Intro = () => {
     return (
         <section className="section">
-            <div className="container box">
-                {/* <h1 className="title">Sluijter Kappers</h1> */}
+            {/* <div className="container box">
+                <h1 className="title">Sluijter Kappers</h1>
                 <p className="is-size-3 has-text-weight-medium">
                     SluijterKappers is een moderne en gezellige salon in Soest.{' '}
                     <br />
@@ -24,7 +24,7 @@ const Intro = () => {
                     thuis, gemakkelijk zelf kunt stylen. Zo blijf je er tiptop
                     uitzien. Weken lang.
                 </p>
-            </div>
+            </div> */}
         </section>
     );
 };
