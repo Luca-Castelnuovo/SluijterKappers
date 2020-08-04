@@ -7,7 +7,7 @@ const Reviews = () => {
         <section className="section">
             <div className="container">
                 <h2 className="title has-text-centered is-size-1 has-text-weight-medium">
-                    Vorige ervaringen
+                    Reviews
                 </h2>
                 <div className="tile is-ancestor">
                     {ReviewsConfig.map((review) => (
