@@ -7,8 +7,11 @@ const Service = ({ title, image, prices }) => {
     return (
         <section className="section">
             <div className="container">
+                <h1 className="title is-1">{title}</h1>
+                <h2 className="subtitle">Tarieven</h2>
+
                 <div className="columns is-centered">
-                    <ServicePrices title={title} prices={prices} />
+                    <ServicePrices prices={prices} />
 
                     <ServiceImage image={image} />
                 </div>

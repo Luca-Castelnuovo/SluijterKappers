@@ -1,15 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ServicePrices = ({ title, prices }) => {
+const ServicePrices = ({ prices }) => {
     return (
         <div className="column is-narrow is-size-4">
-            <h1 className="title is-1">{title}</h1>
-
             {prices.map((category) => (
                 <div key={category.title} className="mb-4">
                     {category.title && (
-                        <h2 className="subtitle is-4 mb-0">{category.title}</h2>
+                        <h3 className="subtitle is-4 mb-0">{category.title}</h3>
                     )}
 
                     <table className="table">
@@ -31,7 +29,6 @@ const ServicePrices = ({ title, prices }) => {
 };
 
 PropTypes.propTypes = {
-    title: PropTypes.string.isRequired,
     prices: PropTypes.array.isRequired,
 };
 
