@@ -9,7 +9,7 @@ const ServicePrices = ({ title, prices }) => {
             {prices.map((category) => (
                 <div key={category.title} className="mb-4">
                     {category.title && (
-                        <h3 className="subtitle is-4 mb-0">{category.title}</h3>
+                        <h2 className="subtitle is-4 mb-0">{category.title}</h2>
                     )}
 
                     <table className="table">

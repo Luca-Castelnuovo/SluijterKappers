@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-const Title = styled.h2`
+const Title = styled.p`
     font-size: 1.5rem;
 
     @media (max-width: 1024px) {

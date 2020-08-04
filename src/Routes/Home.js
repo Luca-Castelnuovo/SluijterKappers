@@ -1,16 +1,13 @@
 import React from 'react';
 import withBaseRoute from 'Utils/withBaseRoute';
 import Hero from 'Components/Hero/Hero';
-import Intro from 'Components/Home/Intro';
-import Styles from 'Components/Home/Styles';
+import Styles from 'Components/Styles';
 import Reviews from 'Components/Reviews/Reviews';
 
 const Home = () => {
     return (
         <>
             <Hero />
-
-            <Intro />
 
             <Styles />
 
