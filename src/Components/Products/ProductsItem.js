@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const ProductsItem = ({ product }) => {
     return (
-        <div className="column is-one-quarter is-narrow">
+        <div className="column is-one-third-tablet is-one-quarter-desktop is-one-fith-widescreen is-narrow">
             <div className="card">
                 <div className="card-image">
                     <figure className="image is-1by1">
