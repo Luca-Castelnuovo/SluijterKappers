@@ -11,7 +11,7 @@ const useProducts = () => {
 
         const fetchData = async () => {
             const response = await fetch(
-                'https://run.mocky.io/v3/1da52db6-0440-47d1-8bcc-6ea588322aee'
+                'https://admin.lucacastelnuovo.nl/products'
             );
             const json = await response.json();
 
