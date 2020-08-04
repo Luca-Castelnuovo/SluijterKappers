@@ -24,6 +24,7 @@ $primary-font: 'Didact Gothic', sans-serif;
 $secondary-font: 'Bank Gothic', sans-serif;
 $primary-color: #a59d91;
 $secundary-color: #008ada;
+$accent-color: #dddddd;
 $background-color: #fff;
 
 // Update Bulma's globals
@@ -38,8 +39,10 @@ $control-border-width: 2px;
 $control-radius: 100px;
 $family-primary: $primary-font;
 $family-secondary: $secondary-font;
+$footer-background-color: $accent-color;
 $input-shadow: none;
-$navbar-item-active-background-color: #fafafa;
+$navbar-item-active-background-color: $accent-color;
+$navbar-item-hover-background-color: $accent-color;
 
 // Import required Bulma files
 @import '~bulma/bulma.sass';
