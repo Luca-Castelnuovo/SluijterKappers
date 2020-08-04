@@ -4,8 +4,8 @@ import StylesItem from './StylesItem';
 
 const Styles = () => {
     return (
-        <section className="section">
-            <ScrollTarget name="intro">
+        <ScrollTarget name="styles">
+            <section className="section">
                 <div className="columns is-centered">
                     <div className="column is-5">
                         <div className="box is-size-3 has-text-centered">
@@ -36,8 +36,8 @@ const Styles = () => {
                         </div>
                     </div>
                 </div>
-            </ScrollTarget>
-        </section>
+            </section>
+        </ScrollTarget>
     );
 };
 

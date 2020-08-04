@@ -27,10 +27,10 @@ const StyledArrow = styled.span`
 const HeroFooter = () => {
     return (
         <ScrollLink
-            to="intro"
+            to="styles"
             smooth={true}
             duration={500}
-            offset={-900}
+            offset={-75}
             className="hero-foot"
         >
             <div className="container has-text-centered">
