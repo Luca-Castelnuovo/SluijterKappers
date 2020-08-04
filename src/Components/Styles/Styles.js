@@ -14,7 +14,7 @@ const Styles = () => {
                                 salon in Soest.
                             </p>
                             <p className="has-text-weight-medium mt-5">
-                                Jij ontspant hier, terwijl een ervaren team van
+                                Jij ontspant hier, terwijl een team van ervaren
                                 kappers je voorziet van een geweldige coupe.
                             </p>
                             <p className="has-text-weight-medium mt-5 is-hidden-touch">
