@@ -16,7 +16,7 @@ const Menu = ({ hamburgerOpen }) => {
                 <MenuLink to="/dames">Dames</MenuLink>
                 <MenuLink to="/heren">Heren</MenuLink>
                 <MenuLink to="/producten">Producten</MenuLink>
-                <MenuLink to="/team">Team</MenuLink>
+                {/* <MenuLink to="/team">Team</MenuLink> */}
             </div>
 
             <div className="navbar-end is-hidden-touch">
