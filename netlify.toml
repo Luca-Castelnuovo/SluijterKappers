@@ -39,3 +39,9 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://cms.castelnuovo.xyz/:splat"
+  status = 200
+  force = true
