@@ -9,7 +9,7 @@ const Dames = [
         title: 'Jeugd',
         'Knippen (t/m 12 jaar)': 27,
         'Knippen (13 t/m 18 jaar)': 37,
-        'Knippen (18 t/m 23 jaar)': 40,
+        'Knippen (19 t/m 23 jaar)': 40,
     },
     {
         title: 'Kleuren',
