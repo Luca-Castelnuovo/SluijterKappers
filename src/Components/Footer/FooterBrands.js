@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import doubleTrue from 'Assets/images/brands/double_true.jpg';
 import tecniArt from 'Assets/images/brands/tecni_art.jpg';
 import kerastase from 'Assets/images/brands/kerastase.jpg';
-import loreal from 'Assets/images/brands/loreal.jpg';
+import lorealProfessionel from 'Assets/images/brands/loreal_professionel.jpg';
 import marcInbane from 'Assets/images/brands/marc_inbane.jpg';
 
 const Logo = styled.figure`
@@ -46,8 +46,8 @@ const FooterBrands = () => {
                     <div className="column is-narrow">
                         <Logo className="image">
                             <img
-                                alt="L'Oréal || Sluijter Kappers"
-                                src={loreal}
+                                alt="L'Oréal Professionel || Sluijter Kappers"
+                                src={lorealProfessionel}
                             />
                         </Logo>
                     </div>
