@@ -24,6 +24,10 @@ const Products = () => {
                 title="Marc Inbane"
                 products={ProductsAPI.marc_inbane}
             />
+            <ProductsCategory
+                title="Double True"
+                products={ProductsAPI.double_true}
+            />
             <ProductsCategory title="Overig" products={ProductsAPI.overig} />
         </>
     );

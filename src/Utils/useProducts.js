@@ -10,9 +10,7 @@ const useProducts = () => {
         }
 
         const fetchData = async () => {
-            const response = await fetch(
-                'https://admin.lucacastelnuovo.nl/products'
-            );
+            const response = await fetch('/api/products');
             const json = await response.json();
 
             setproducts(json.data);

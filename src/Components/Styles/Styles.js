@@ -10,16 +10,18 @@ const Styles = () => {
                     <div className="column is-5">
                         <div className="box is-size-3 has-text-centered">
                             <p className="has-text-weight-semibold ">
-                                Sluijter Kappers is een moderne en gezellige
-                                salon in Soest.
+                                Jan Sluijter werkt met de mooiste kleuringen van
+                                loreal professional en is onder andere
+                                gespecialiseerd in French Balayage.
                             </p>
                             <p className="has-text-weight-medium mt-5">
-                                Jij ontspant hier, terwijl een team van ervaren
-                                kappers je voorziet van een geweldige coupe.
+                                Hij heeft veel ervaring met het knippen van
+                                krullend haar en heeft daarnaast een grote
+                                passie voor kunst.
                             </p>
                             <p className="has-text-weight-medium mt-5 is-hidden-touch">
-                                Hun doel is een kapsel dat perfect bij je past
-                                en helemaal volgens jouw wensen is.
+                                Tevens wordt er gewerkt met tape extensions van
+                                Double True haarverlenging.
                             </p>
                         </div>
                     </div>

@@ -7,6 +7,7 @@ const Heren = [
     {
         title: 'Jeugd',
         'Knippen (t/m 12 jaar)': 27,
+        'Knippen (13 t/m 18 jaar)': 33,
     },
     {
         title: 'Overig',

@@ -8,8 +8,8 @@ const Dames = [
     {
         title: 'Jeugd',
         'Knippen (t/m 12 jaar)': 27,
-        'Knippen (13 t/m 17 jaar)': 38,
-        'Knippen (18 t/m 21 jaar)': 40,
+        'Knippen (13 t/m 18 jaar)': 37,
+        'Knippen (19 t/m 23 jaar)': 40,
     },
     {
         title: 'Kleuren',
@@ -18,7 +18,7 @@ const Dames = [
         'Folie kleuring (deel)': 'vanaf 80',
         'Folie kleuring (compleet)': 'vanaf 145',
         'French Balayage': 'vanaf 100',
-        'Permananet (compleet)': 'vanaf 120',
+        'Permanent (compleet)': 'vanaf 120',
     },
 ];
 

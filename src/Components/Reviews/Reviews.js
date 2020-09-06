@@ -1,6 +1,5 @@
 import React from 'react';
-import ReviewsConfig from 'Config/Reviews';
-import ReviewsItem from './ReviewsItem';
+import ReviewsContainer from './ReviewsContainer';
 
 const Reviews = () => {
     return (
@@ -10,9 +9,7 @@ const Reviews = () => {
                     Reviews
                 </h2>
                 <div className="tile is-ancestor">
-                    {ReviewsConfig.map((review) => (
-                        <ReviewsItem key={review.name} review={review} />
-                    ))}
+                    <ReviewsContainer />
                 </div>
             </div>
         </section>
