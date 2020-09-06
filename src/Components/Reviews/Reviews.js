@@ -1,8 +1,10 @@
 import React from 'react';
-import ReviewsConfig from 'Config/Reviews';
 import ReviewsItem from './ReviewsItem';
+import useReviews from 'Utils/useProducts';
 
 const Reviews = () => {
+    const ReviewsData = useReviews();
+
     return (
         <section className="section">
             <div className="container">
@@ -10,9 +12,14 @@ const Reviews = () => {
                     Reviews
                 </h2>
                 <div className="tile is-ancestor">
-                    {ReviewsConfig.map((review) => (
-                        <ReviewsItem key={review.name} review={review} />
-                    ))}
+                    {!ReviewsData && (
+                        <progress class="progress is-large is-primary"></progress>
+                    )}
+
+                    {ReviewsData &&
+                        ReviewsData.map((review) => (
+                            <ReviewsItem key={review.name} review={review} />
+                        ))}
                 </div>
             </div>
         </section>
