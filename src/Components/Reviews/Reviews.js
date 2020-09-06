@@ -5,6 +5,21 @@ import useReviews from 'Utils/useProducts';
 const Reviews = () => {
     const ReviewsData = useReviews();
 
+    if (!ReviewsData) {
+        return (
+            <section className="section">
+                <div className="container">
+                    <h2 className="title has-text-centered is-size-1 has-text-weight-medium">
+                        Reviews
+                    </h2>
+                    <div className="tile is-ancestor">
+                        <progress class="progress is-large is-primary"></progress>
+                    </div>
+                </div>
+            </section>
+        );
+    }
+
     return (
         <section className="section">
             <div className="container">
@@ -12,14 +27,9 @@ const Reviews = () => {
                     Reviews
                 </h2>
                 <div className="tile is-ancestor">
-                    {!ReviewsData && (
-                        <progress class="progress is-large is-primary"></progress>
-                    )}
-
-                    {ReviewsData &&
-                        ReviewsData.map((review) => (
-                            <ReviewsItem key={review.name} review={review} />
-                        ))}
+                    {ReviewsData.map((review) => (
+                        <ReviewsItem key={review.name} review={review} />
+                    ))}
                 </div>
             </div>
         </section>
