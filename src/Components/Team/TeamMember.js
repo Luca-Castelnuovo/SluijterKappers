@@ -11,7 +11,9 @@ const TeamMember = ({ name, description, image }) => {
                         <figure className="image is-1by1">
                             <img src={image} alt="Jan" />
                         </figure>
-                        <p className="is-size-4 mt-2">{description}</p>
+                        {description && (
+                            <p className="is-size-4 mt-2">{description}</p>
+                        )}
                     </article>
                 </div>
             </div>
@@ -21,7 +23,7 @@ const TeamMember = ({ name, description, image }) => {
 
 TeamMember.propTypes = {
     name: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
+    description: PropTypes.string,
     image: PropTypes.string.isRequired,
 };
 
