@@ -6,7 +6,7 @@ const ReviewsContainer = () => {
     const ReviewsData = useReviews();
 
     if (!ReviewsData) {
-        return <progress class="progress is-large is-primary"></progress>;
+        return <progress className="progress is-large is-primary"></progress>;
     }
 
     return ReviewsData.map((review) => (
