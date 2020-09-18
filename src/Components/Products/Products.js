@@ -6,7 +6,7 @@ const Products = () => {
     const ProductsAPI = useProducts();
 
     if (!ProductsAPI) {
-        return <progress class="progress is-large is-primary"></progress>;
+        return <progress className="progress is-large is-primary"></progress>;
     }
 
     return (

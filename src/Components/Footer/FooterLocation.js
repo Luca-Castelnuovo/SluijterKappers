@@ -12,13 +12,13 @@ const FooterLocation = () => {
                     3768 EM SOEST
                 </Link>
             </p>
-            <p className="is-hidden-touch">
+            <div className="is-hidden-touch">
                 <Link to="/redirect/gmaps">
-                    <figure class="image is-3by2">
+                    <figure className="image is-3by2">
                         <img alt="Locatie || Sluijter Kappers" src={Maps} />
                     </figure>
                 </Link>
-            </p>
+            </div>
         </div>
     );
 };
