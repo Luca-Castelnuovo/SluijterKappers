@@ -10,6 +10,9 @@ const HeroTitle = styled.h1`
 
     @media (max-width: 465px) {
         font-size: 2.8rem;
+
+    @media (max-width: 360px) {
+        font-size: 2rem;
     }
 `;
 
@@ -18,7 +21,8 @@ const HeroBody = () => {
         <div className="hero-body has-text-centered">
             <HeroTitle className="title is-family-secondary has-text-white">
                 Sluijter
-                <br /> Kappers
+                <br />
+                Kappers
             </HeroTitle>
         </div>
     );
