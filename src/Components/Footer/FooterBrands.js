@@ -17,7 +17,7 @@ const Logo = styled.figure`
 const FooterBrands = () => {
     return (
         <div className="content">
-            //<Link to="/producten">
+            {/*<Link to="/producten">*/}
                 <div className="columns is-centered">
                     <div className="column is-narrow">
                         <Logo className="image">
@@ -60,7 +60,7 @@ const FooterBrands = () => {
                         </Logo>
                     </div>
                 </div>
-            //</Link>
+            {/*</Link>*/}
         </div>
     );
 };
