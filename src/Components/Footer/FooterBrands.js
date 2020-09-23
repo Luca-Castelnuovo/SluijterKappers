@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 
 import doubleTrue from 'Assets/images/brands/double_true.jpg';
 import tecniArt from 'Assets/images/brands/tecni_art.jpg';
@@ -17,7 +17,7 @@ const Logo = styled.figure`
 const FooterBrands = () => {
     return (
         <div className="content">
-            <Link to="/producten">
+            {/*<Link to="/producten">*/}
                 <div className="columns is-centered">
                     <div className="column is-narrow">
                         <Logo className="image">
@@ -60,7 +60,7 @@ const FooterBrands = () => {
                         </Logo>
                     </div>
                 </div>
-            </Link>
+            {/*</Link>*/}
         </div>
     );
 };

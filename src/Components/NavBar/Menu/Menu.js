@@ -15,7 +15,7 @@ const Menu = ({ hamburgerOpen }) => {
             <div className="navbar-start">
                 <MenuLink to="/dames">Dames</MenuLink>
                 <MenuLink to="/heren">Heren</MenuLink>
-                <MenuLink to="/producten">Producten</MenuLink>
+                {/*<MenuLink to="/producten">Producten</MenuLink>*/}
                 <MenuLink to="/team">Team</MenuLink>
             </div>
 
