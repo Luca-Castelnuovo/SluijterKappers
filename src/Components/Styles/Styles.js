@@ -11,7 +11,7 @@ const Styles = () => {
                         <div className="box is-size-3 has-text-centered">
                             <p className="has-text-weight-semibold ">
                                 Jan Sluijter werkt met de mooiste kleuringen van
-                                L'Oréal Professional en is onder andere
+                                L'Oréal Professionel en is onder andere
                                 gespecialiseerd in French Balayage.
                             </p>
                             <p className="has-text-weight-medium mt-5">
