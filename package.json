@@ -58,7 +58,7 @@
         "bulma": "^0.9.1",
         "bulma-carousel": "^4.0.4",
         "classnames": "^2.2.6",
-        "node-sass": "^4.14.1",
+        "node-sass": "^5.0.0",
         "prop-types": "^15.7.2",
         "react": "^16.14.0",
         "react-dom": "^16.14.0",
