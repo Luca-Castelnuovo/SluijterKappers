@@ -2,7 +2,7 @@ const Redirects = [
     {
         from: 'booking',
         to:
-            'https://www.barberbooking.com/bookingwidget/jan-sluyter-kappers-soest?p=3ppr6w',
+            'https://bjootify.com/salon/Soest/jan-sluyter-kappers',
     },
     {
         from: 'gmaps',
