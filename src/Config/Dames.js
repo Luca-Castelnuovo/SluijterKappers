@@ -13,7 +13,7 @@ const Dames = [
     },
     {
         title: 'Kleuren',
-        Verven: 'vanaf 51,50,
+        Verven: 'vanaf 51,50',
         ,Highlights: 'vanaf 74',
         'Folie kleuring (deel)': 'vanaf 89',
         'Folie kleuring (compleet)': 'vanaf 150',
