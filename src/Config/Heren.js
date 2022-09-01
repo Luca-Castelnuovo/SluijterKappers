@@ -6,14 +6,14 @@ const Heren = [
     },
     {
         title: 'Jeugd',
-        'Knippen (t/m 12 jaar)': 27,
-        'Knippen (13 t/m 18 jaar)': 33,
+        'Knippen (t/m 12 jaar)': 29,
+        'Knippen (13 t/m 18 jaar)': 38
     },
     {
         title: 'Overig',
-        'Baard knippen': 5,
-        'Tondeuse (5 min)': 11,
-        'Tondeuse (uitgebreid)': 22,
+        'Baard knippen': 6,
+        'Tondeuse (5 min)': 12,
+        'Tondeuse (uitgebreid)': 23
     },
 ];
 
