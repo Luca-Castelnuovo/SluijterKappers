@@ -1,13 +1,13 @@
 const Heren = [
     {
         title: '',
-        Knippen: 35,
-        'Wassen en knippen': 39,
+        Knippen: 37,
+        'Wassen en knippen': 42,
     },
     {
         title: 'Jeugd',
         'Knippen (t/m 12 jaar)': 29,
-        'Knippen (13 t/m 18 jaar)': 38
+        'Knippen (13 t/m 18 jaar)': 34
     },
     {
         title: 'Overig',
