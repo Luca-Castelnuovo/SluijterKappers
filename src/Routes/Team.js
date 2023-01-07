@@ -1,5 +1,4 @@
 import React from 'react';
-import withBaseRoute from 'Utils/withBaseRoute';
 import TeamMembers from 'Components/Team';
 
 const Team = () => {
@@ -15,4 +14,4 @@ const Team = () => {
     );
 };
 
-export default withBaseRoute(Team);
+export default Team;

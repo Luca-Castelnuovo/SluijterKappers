@@ -1,5 +1,4 @@
 import React from 'react';
-import withBaseRoute from 'Utils/withBaseRoute';
 import Products from 'Components/Products';
 
 const Producten = () => {
@@ -13,4 +12,4 @@ const Producten = () => {
     );
 };
 
-export default withBaseRoute(Producten);
+export default Producten;

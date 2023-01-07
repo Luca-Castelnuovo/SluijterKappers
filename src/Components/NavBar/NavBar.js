@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { withRouter, useLocation } from 'react-router';
+import { useLocation } from 'react-router';
 import useClickOutside from 'Utils/useClickOutside';
 import Brand from './Brand';
 import Menu from './Menu';
@@ -34,4 +34,4 @@ const NavBar = () => {
     );
 };
 
-export default withRouter(NavBar);
+export default NavBar;

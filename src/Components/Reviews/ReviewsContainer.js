@@ -1,15 +1,9 @@
 import React from 'react';
+import ReviewsConfig from 'Config/Reviews';
 import ReviewsItem from './ReviewsItem';
-import useReviews from 'Utils/useReviews';
 
 const ReviewsContainer = () => {
-    const ReviewsData = useReviews();
-
-    if (!ReviewsData) {
-        return <progress className="progress is-large is-primary"></progress>;
-    }
-
-    return ReviewsData.map((review) => (
+    return ReviewsConfig.map((review) => (
         <ReviewsItem key={review.name} review={review} />
     ));
 };

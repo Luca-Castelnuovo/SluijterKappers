@@ -1,0 +1,16 @@
+name: Check PR
+
+on:
+    pull_request:
+        types: [synchronize, opened, reopened, labeled, unlabeled]
+
+jobs:
+    work-in-progress:
+        if: contains(github.event.pull_request.labels.*.name, 'S0 - Work in progress')
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check for label
+              run: |
+                  echo "PR is labeled as 'S0 - Work in progress'"
+                  echo "This workflow fails so that the pull request cannot be merged"
+                  exit 1

@@ -1,5 +1,4 @@
 import React from 'react';
-import withBaseRoute from 'Utils/withBaseRoute';
 import Hero from 'Components/Hero/Hero';
 import Styles from 'Components/Styles';
 import Reviews from 'Components/Reviews/Reviews';
@@ -16,4 +15,4 @@ const Home = () => {
     );
 };
 
-export default withBaseRoute(Home);
+export default Home;
