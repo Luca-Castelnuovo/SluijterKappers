@@ -7,13 +7,17 @@ const Service = ({ title, image, prices }) => {
     return (
         <section className="section">
             <div className="container">
-                <h1 className="title is-1">{title}</h1>
-                <h2 className="subtitle">Tarieven</h2>
-
                 <div className="columns is-centered">
-                    <ServicePrices prices={prices} />
+                    <div className="column is-narrow is-size-4">
+                        <h1 className="title is-1">{title}</h1>
+                        <h2 className="subtitle">Tarieven</h2>
 
-                    <ServiceImage image={image} />
+                        <ServicePrices prices={prices} />
+                    </div>
+
+                    <div className="column is-hidden-touch">
+                        <ServiceImage image={image} />
+                    </div>
                 </div>
             </div>
         </section>

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const ServicePrices = ({ prices }) => {
     return (
-        <div className="column is-narrow is-size-4">
+        <div>
             {prices.map((category) => (
                 <div key={category.title} className="mb-4">
                     {category.title && (
@@ -17,7 +17,7 @@ const ServicePrices = ({ prices }) => {
                                 .map(([key, value]) => (
                                     <tr key={key}>
                                         <th>{key}</th>
-                                        <td>{value},-</td>
+                                        <td>{value}</td>
                                     </tr>
                                 ))}
                         </tbody>
