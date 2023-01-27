@@ -5,10 +5,11 @@ import { NavLink } from 'react-router-dom';
 const MenuLink = ({ to, children, className, hasActiveState }) => {
     return (
         <NavLink
-            exact
+            end
             to={to}
-            className={className}
-            activeClassName={hasActiveState ? 'is-active' : ''}
+            className={({ isActive }) =>
+                className + (isActive ? ' is-active' : '')
+            }
         >
             {children}
         </NavLink>
