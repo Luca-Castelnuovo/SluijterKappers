@@ -10,14 +10,16 @@ const ServicePrices = ({ prices }) => {
                         <h3 className="subtitle is-4 mb-0">{category.title}</h3>
                     )}
 
-                    <table className="table">
+                    <table className="table is-fullwidth">
                         <tbody>
                             {Object.entries(category)
                                 .filter(([key, value]) => key !== 'title')
                                 .map(([key, value]) => (
                                     <tr key={key}>
                                         <th>{key}</th>
-                                        <td>{value}</td>
+                                        <td className="has-text-right">
+                                            {value}
+                                        </td>
                                     </tr>
                                 ))}
                         </tbody>
